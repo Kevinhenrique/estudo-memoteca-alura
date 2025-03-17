@@ -1,0 +1,24 @@
+<section class="container">
+  <header class="header d-flex">
+    <div class="buscar-pensamentos">
+      <input type="search" name="" id="" class="filtro" placeholder="Digite o nome do Autor(a)?" autofocus [(ngModel)]="filtro"
+      (keyup)="pesquisarPensamentos()">
+      <!-- <img src="../../../../assets/Imagens/" alt=""> -->
+    </div>
+    <h2 class="ff-inter">Meu Mural</h2>
+    <button class="botao" routerLink="/criarPensamento">
+      Adicionar pensamento
+    </button>
+  </header>
+  <div class="mural" *ngIf="listarPensamentos.length > 0; else semPensamentos">
+    <div *ngFor="let p of listarPensamentos">
+      <app-pensamento [pensamento]="p"></app-pensamento>
+    </div>
+  </div>
+  <app-botao-carregar-mais [haMaisPensamentos]="haMaisPensamentos" (click)="carregarMaisPensamentos()" ></app-botao-carregar-mais>
+  <ng-template #semPensamentos>
+    <div class="ff-inter sem-pensamentos">
+      <p>Ainda não há pensamentos cadastrados!</p>
+    </div>
+  </ng-template>
+</section>
