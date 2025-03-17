@@ -1,0 +1,71 @@
+{
+  "pensamentos": [
+    {
+      "id": "1",
+      "conteudo": "Que bom que você veio",
+      "autoria": "Nay",
+      "modelo": "modelo1"
+    },
+    {
+      "id": "2",
+      "conteudo": "Angular é o melhor",
+      "autoria": "Dev Angular",
+      "modelo": "modelo3"
+    },
+    {
+      "id": "8a62",
+      "conteudo": "Pensamento de Teste",
+      "autoria": "Dev Angular",
+      "modelo": "modelo3"
+    },
+    {
+      "id": "119c",
+      "conteudo": "Força esteja com vc",
+      "autoria": "Mestre Yoda",
+      "modelo": "modelo2"
+    },
+    {
+      "id": "e627",
+      "conteudo": "sdsd",
+      "autoria": "dsdhgygy",
+      "modelo": "modelo1"
+    },
+    {
+      "id": "a456",
+      "conteudo": "dsds fvgfdgfsv",
+      "autoria": "dsdsdssd",
+      "modelo": "modelo1"
+    },
+    {
+
+     "id": "a480",
+      "conteudo": "Na minha maquina funciona!",
+      "autoria": "Dev",
+      "modelo": "modelo3"
+    },
+    {
+      "id": "e4d6",
+      "conteudo": "Não sou obrigado a fazer isso, não é minha função!",
+      "autoria": "Dev",
+      "modelo": "modelo2"
+    },
+    {
+      "id": "a58c",
+      "conteudo": "Não acredito que meu chefe me deu uma tarefa faltando 2h para ir embora! Estou indignado com a falta de noção dele...",
+      "autoria": "Trabalhador",
+      "modelo": "modelo2"
+    },
+    {
+      "id": "f5e1",
+      "conteudo": "Você não é todo mundo!",
+      "autoria": "Todas as mães",
+      "modelo": "modelo3"
+    },
+    {
+      "id": "t581",
+      "conteudo": "Prefiro morrer, do que perder a vida!",
+      "autoria": "Chaves",
+      "modelo": "modelo1"
+    }
+  ]
+}
